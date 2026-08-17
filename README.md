@@ -1,6 +1,6 @@
 # Device Lock - Minecraft Fabric Mod
 
-**Version**: 1.0.0 | **Target**: Minecraft 1.21.1 | **Loader**: Fabric
+ **Loader**: Fabric
 
 ## Overview
 
@@ -9,7 +9,7 @@ Device Lock is a client-server Fabric mod that implements device-level banning. 
 ## Installation
 
 1. Both client and server require **Fabric Loader 0.16+** and **Fabric API**.
-2. Place `device-lock-1.0.0.jar` into the `mods/` folder on both client and server.
+2. Place `device-lock-x.x.x.jar` into the `mods/` folder on both client and server.
 3. Launch the game / server.
 
 > Note: This is a required mod on both sides. Clients without the mod will be denied connection.
