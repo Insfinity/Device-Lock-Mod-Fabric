@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "device-lock",
+  "version": "${version}",
+  "name": "Device Lock",
+  "description": "A mod that collects client-side device identifiers, supports device-level banning and virtual machine detection.",
+  "authors": ["Insfinity"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/device-lock/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.Insfinity.DeviceLock"],
+    "client": ["com.Insfinity.client.DeviceLockClient"],
+    "server": ["com.Insfinity.server.DeviceLockServer"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
